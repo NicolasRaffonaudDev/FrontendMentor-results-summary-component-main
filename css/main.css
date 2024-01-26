@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-size: 18px;
+  color: gray;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+span {
+  color: #292727;
+  font-weight: 800; }
+
+.container-max {
+  border-radius: 35px;
+  /* margin: 200px 500px 300px 500px; */
+  display: flex;
+  flex-direction: column;
+  width: 375px;
+  height: 100vh;
+  box-shadow: 20px 40px 40px rgba(0, 0, 0, 0.144); }
+
+.violet-card {
+  border-radius: 0 0 35px 35px;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg, #7857ff 3%, #2e2be9 66%); }
+
+.violet-card__your-result {
+  font-weight: 500;
+  margin-top: 20px;
+  font-size: medium;
+  color: #d2d4db; }
+
+.violet-card__score {
+  background-color: #480cee;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 100px;
+  width: 166px;
+  height: 166px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.violet-card__num {
+  font-weight: 800;
+  font-size: 66px;
+  color: white; }
+
+.violet-card__num-of {
+  color: #9498a4;
+  font-weight: 500; }
+
+.violet-card__great {
+  font-weight: 500;
+  font-size: 25px;
+  margin-bottom: 3px;
+  color: white; }
+
+.violet-card__text {
+  margin: 0 60px 0 60px;
+  color: #87888c;
+  font-weight: 500;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 40px; }
+
+.white-card {
+  border-radius: 35px;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column; }
+
+.white-card__summary {
+  font-weight: 700;
+  font-size: 23px;
+  margin: 35px 0 15px 15px;
+  color: #2b3140; }
+
+.white-card__sector {
+  display: flex;
+  border-radius: 15px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0 10px 20px;
+  width: 330px;
+  height: 110px;
+  font-weight: 500;
+  font-size: 16px; }
+
+.white-card__reaction {
+  color: #ff5757;
+  margin: 0 0 0 10px;
+  display: flex;
+  font-size: 14px; }
+
+.white-card__memory {
+  color: #ffb01f;
+  margin: 0 0 0 10px;
+  display: flex;
+  font-size: 14px; }
+
+.white-card__verbal {
+  color: #00bd91;
+  margin: 0 0 0 10px;
+  display: flex;
+  font-size: 14px; }
+
+.white-card__visual {
+  color: #1125d4;
+  margin: 0 0 0 10px;
+  display: flex;
+  font-size: 14px; }
+
+.reaction {
+  background-color: rgba(255, 87, 87, 0.137); }
+
+.memory {
+  background-color: rgba(255, 176, 31, 0.13); }
+
+.verbal {
+  background-color: rgba(0, 189, 145, 0.096); }
+
+.visual {
+  background-color: rgba(17, 37, 212, 0.116); }
+
+.white-card__score {
+  margin: 0 10px 0 0; }
+
+button {
+  width: 330px;
+  height: 120px;
+  margin: 5px 20px 20px 20px;
+  border: none;
+  border-radius: 30px 30px 30px 30px;
+  background-color: #303b5a;
+  font-weight: 700;
+  color: #e6dada;
+  font-size: 16px; }
+
+button:active {
+  background: linear-gradient(180deg, #7857ff 3%, #2e2be9 66%); }
+
+.attribution {
+  font-size: 11px;
+  text-align: center; }
+
+.attribution a {
+  color: #3e52a3; }
+
+@media (min-width: 1024px) {
+  .container-max {
+    flex-direction: row;
+    width: 735px;
+    height: 515px; }
+  .violet-card {
+    border-radius: 35px;
+    width: 50%;
+    height: 100%; }
+  .white-card {
+    border-radius: 35px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column; }
+  .violet-card__score {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    width: 180px;
+    height: 180px; }
+  .violet-card__great {
+    font-weight: 500;
+    font-size: 35px;
+    margin-bottom: 15px; }
+  .violet-card__text {
+    margin: 0 60px 0 60px;
+    font-size: 18px;
+    margin-bottom: 20px; }
+  .violet-card__your-result {
+    font-weight: 500;
+    margin-top: 20px;
+    font-size: x-large;
+    color: #d2d4db; }
+  button {
+    width: 290px;
+    height: 120px;
+    margin: 30px 20px 40px 40px; }
+  .white-card__sector {
+    margin: 10px 0 10px 40px;
+    width: 290px;
+    height: 110px;
+    font-weight: 500;
+    font-size: 16px; } }
