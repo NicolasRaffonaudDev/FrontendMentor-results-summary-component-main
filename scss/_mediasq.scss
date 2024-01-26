@@ -1,0 +1,61 @@
+@media (min-width: 1024px) {
+    .container-max {
+        flex-direction: row;
+        width: 735px;
+        height: 515px;
+    }
+
+    .violet-card {
+        border-radius: 35px;
+        width: 50%;
+        height: 100%;
+    }
+
+    .white-card {
+        border-radius: 35px;
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .violet-card__score {
+        margin-top: 40px;
+        margin-bottom: 30px;
+        width: 180px;
+        height: 180px;
+    }
+
+    .violet-card__great {
+        font-weight: 500;
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+
+    .violet-card__text {
+        margin: 0 60px 0 60px;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .violet-card__your-result {
+        font-weight: 500;
+        margin-top: 20px;
+        font-size: x-large;
+        color: hsl(227, 11%, 84%);
+    }
+
+    button {
+        width: 290px;
+        height: 120px;
+        margin: 30px 20px 40px 40px;
+    }
+
+    .white-card__sector {
+        margin: 10px 0 10px 40px;
+        width: 290px;
+        height: 110px;
+        font-weight: 500;
+        font-size: 16px
+    }
+}
